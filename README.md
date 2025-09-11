@@ -13,7 +13,9 @@ This repository contains **two tasks** completed for the Technical Domain round.
   - Dashboard displays all registered users.
   - Delete functionality for users.
 
-### How to Run Locally
+### How to Run Locally:
+Type the below command in the terminal;
+
 cd TASK1_signupform
 
 python app.py
@@ -31,6 +33,8 @@ Then open http://127.0.0.1:5000 in your browser.
   - Shows which questions were correct/incorrect.
 
 ### How to Run Locally
+Type the below command in the terminal;
+
 cd TASK2_quizapp
 
 python app.py
