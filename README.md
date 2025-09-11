@@ -15,7 +15,9 @@ This repository contains **two tasks** completed for the Technical Domain round.
 
 ### How to Run Locally
 cd TASK1_signupform
+
 python app.py
+
 Then open http://127.0.0.1:5000 in your browser.
 
 ---
@@ -30,7 +32,9 @@ Then open http://127.0.0.1:5000 in your browser.
 
 ### How to Run Locally
 cd TASK2_quizapp
+
 python app.py
+
 Then open http://127.0.0.1:5000 in your browser.
 
 ---
