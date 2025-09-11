@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+}
+
+/* Keep container rectangular with rounded corners */
+.container {
+    background: white;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 12px;       /* rectangle with curves */
+    box-shadow: 0px 0px 10px gray;
+}
+
+/* Headings */
+h1, h2, h3 {
+    text-align: center;
+}
+
+/* Left align content for questions & results */
+.question-content, .result-content {
+    text-align: left;
+}
+
+/* Helper for centering (used only on welcome page button) */
+.center {
+    text-align: center;
+}
+
+/* Options styled as blocks */
+.option-box {
+    display: block;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.option-box:hover {
+    background: #f4f6f9;
+}
+
+/* Buttons */
+.btn {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 15px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+}
+.btn:hover {
+    background: #45a049;
+}
+
+/* Score highlight */
+.score {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+

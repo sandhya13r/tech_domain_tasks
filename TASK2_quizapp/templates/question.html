@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Question {{ qno }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container question-content">
+        <h2>Question {{ qno }} of {{ total }}</h2>
+        <form method="post">
+            <p><b>{{ question["question"] }}</b></p>
+            <div class="options">
+                {% for option in question["options"] %}
+                    <label class="option-box">
+                        <input type="radio" name="option" value="{{ option }}" required>
+                        {{ option }}
+                    </label>
+                {% endfor %}
+            </div>
+            <button type="submit" class="btn">Next</button>
+        </form>
+    </div>
+</body>
+</html>
+
