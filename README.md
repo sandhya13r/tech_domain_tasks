@@ -23,6 +23,9 @@ cd TASK1_signupform
 python app.py
 
 Then open http://127.0.0.1:5000 in your browser.
+###Screenshot of the form:
+<img width="497" height="459" alt="image" src="https://github.com/user-attachments/assets/0dc61797-f671-4433-9087-1a864491140a" />
+
 
 ---
 
