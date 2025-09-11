@@ -50,6 +50,12 @@ python app.py
 Then open http://127.0.0.1:5000 in your browser.
 
 ---
+###Screenshot of the quiz app:
+<img width="1770" height="878" alt="Screenshot 2025-09-11 161847" src="https://github.com/user-attachments/assets/f604707e-6b1c-4112-a6fb-7f93dea3e406" />
+<img width="1739" height="875" alt="Screenshot 2025-09-11 161900" src="https://github.com/user-attachments/assets/a4de5208-3445-43c9-863e-04c03d6d0588" />
+<img width="1668" height="888" alt="Screenshot 2025-09-11 161932" src="https://github.com/user-attachments/assets/858e48f1-de1c-4bea-8151-201ee0ab3b22" />
+
+
 
 ## 📝 Notes
 - Each task runs **independently**. Always `cd` into the respective folder before running.  
