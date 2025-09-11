@@ -17,3 +17,22 @@ This repository contains **two tasks** completed for the Technical Domain round.
 ```bash
 cd TASK1_signupform
 python app.py
+
+# Task 2 - Interactive Quiz App 
+
+This is a simple **Interactive Quiz Application** built using **Flask (Python)**, HTML, and CSS.
+
+---
+
+## Features
+- 5 multiple-choice questions (4 options each).
+- Allows single-choice selection.
+- Submit answers to calculate score.
+- Bonus: Shows which questions were correct/incorrect.
+
+---
+
+## How to Run Locally
+   ```bash
+   cd TASK2_quizapp
+   python app.py
