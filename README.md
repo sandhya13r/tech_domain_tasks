@@ -34,6 +34,8 @@ python app.py
 Then open http://127.0.0.1:5000 in your browser.
 
 ---
+### Deployment link
+🔗 https://sandhya13r.pythonanywhere.com
 
 ## 📝 Notes
 - Each task runs **independently**. Always `cd` into the respective folder before running.  
