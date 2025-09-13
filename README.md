@@ -4,7 +4,7 @@ This repository contains **two tasks** completed for the Technical Domain round.
 
 ---
 
-## Task 1: Signup Form with Validation & Dashboard
+# Task 1: Signup Form with Validation & Dashboard
 - Built using **Flask (Python)**.
 - Features:
   - Signup form with username, email, and password.
@@ -31,7 +31,7 @@ Then open http://127.0.0.1:5000 in your browser.
 
 ---
 
-## Task 2: Interactive Quiz App
+# Task 2: Interactive Quiz App
 - Built using **Flask (Python)**, HTML, and CSS.
 - Features:
   - 5 multiple-choice questions (4 options each).
