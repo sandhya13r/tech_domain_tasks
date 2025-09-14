@@ -1,9 +1,9 @@
 from flask import Flask, render_template, request, redirect, url_for, session
 import os
 app = Flask(__name__)
-app.secret_key = "quiz_secret"  # needed for session handling
+app.secret_key = "quiz_secret" 
 
-# Our quiz questions
+
 questions = [
     {
         "question": "What is the capital of India?",
@@ -34,7 +34,7 @@ questions = [
 
 @app.route("/")
 def index():
-    # reset everything at start
+  
     session["score"] = 0
     session["qno"] = 0
     session["answers"] = []
@@ -48,11 +48,11 @@ def question():
         selected = request.form.get("option")
         correct = questions[qno - 1]["answer"]
 
-        # check answer
+      
         if selected == correct:
             session["score"] += 1
 
-        # store answer only once
+        
         answers = session.get("answers", [])
         answers.append((questions[qno - 1]["question"], selected, correct))
         session["answers"] = answers
